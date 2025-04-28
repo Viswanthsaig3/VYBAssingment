@@ -1,0 +1,66 @@
+{
+  "en": {
+    "south_indian": {
+      "masala_dosa": "Masala Dosa",
+      "plain_dosa": "Plain Dosa",
+      "idli": "Idli",
+      "vada": "Vada",
+      "uttapam": "Uttapam",
+      "sambhar": "Sambhar"
+    },
+    "north_indian": {
+      "butter_chicken": "Butter Chicken",
+      "paneer_butter_masala": "Paneer Butter Masala",
+      "dal_makhani": "Dal Makhani",
+      "chole_bhature": "Chole Bhature",
+      "aloo_gobi": "Aloo Gobi",
+      "palak_paneer": "Palak Paneer",
+      "rajma_chawal": "Rajma Chawal"
+    },
+    "dish_types": {
+      "wet_sabzi": "Wet Sabzi",
+      "dry_sabzi": "Dry Sabzi",
+      "dal": "Dal",
+      "rice": "Rice",
+      "roti": "Roti",
+      "paratha": "Paratha",
+      "non_veg_curry": "Non-Veg Curry",
+      "dessert": "Dessert",
+      "chaat": "Chaat",
+      "south_indian": "South Indian",
+      "breakfast": "Breakfast"
+    }
+  },
+  "hi": {
+    "south_indian": {
+      "masala_dosa": "मसाला डोसा",
+      "plain_dosa": "सादा डोसा",
+      "idli": "इडली",
+      "vada": "वडा",
+      "uttapam": "उत्तपम",
+      "sambhar": "सांभर"
+    },
+    "north_indian": {
+      "butter_chicken": "बटर चिकन",
+      "paneer_butter_masala": "पनीर बटर मसाला",
+      "dal_makhani": "दाल मखनी",
+      "chole_bhature": "छोले भटूरे",
+      "aloo_gobi": "आलू गोभी",
+      "palak_paneer": "पालक पनीर",
+      "rajma_chawal": "राजमा चावल"
+    },
+    "dish_types": {
+      "wet_sabzi": "गीली सब्जी",
+      "dry_sabzi": "सूखी सब्जी",
+      "dal": "दाल",
+      "rice": "चावल",
+      "roti": "रोटी",
+      "paratha": "पराठा",
+      "non_veg_curry": "नॉन वेज करी",
+      "dessert": "मिठाई",
+      "chaat": "चाट",
+      "south_indian": "दक्षिण भारतीय",
+      "breakfast": "नाश्ता"
+    }
+  }
+}
