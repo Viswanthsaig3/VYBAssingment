@@ -57,6 +57,37 @@ NutriCalc AI takes the name of any Indian dish and:
    ```
 6. Open your browser at http://localhost:3000
 
+## Deployment Information
+
+The application is deployed and accessible at these URLs:
+
+- **Frontend:** https://vybassingment-1.onrender.com/
+- **Backend API:** https://vybassingment.onrender.com
+
+## Development Setup
+
+1. Clone the repository
+2. Install dependencies:
+   ```
+   # Backend
+   pip install -r requirements.txt
+   
+   # Frontend
+   cd frontend
+   npm install
+   ```
+3. Create a `.env` file with required environment variables
+4. Run the application:
+   ```
+   python run.py
+   ```
+
+## Environment Variables
+
+- `MONGO_URI`: MongoDB connection string
+- `OPENAI_API_KEY`: OpenAI API key for nutrition analysis
+- `REACT_APP_API_URL`: Backend API URL (in production)
+
 ## Example Results
 
 ### Paneer Butter Masala
