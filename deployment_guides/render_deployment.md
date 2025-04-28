@@ -27,7 +27,7 @@
    - Build Command: `cd frontend && npm install && npm run build`
    - Publish Directory: `frontend/build`
    - Add environment variable:
-     - `REACT_APP_API_URL`: URL of your backend service (e.g., `https://nutriCalc-api.onrender.com`)
+     - `REACT_APP_API_URL`: `https://vybassingment.onrender.com`
 
 ### 3. Update API URL in Frontend
 Update your API requests to use the environment variable:

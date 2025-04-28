@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
-import { Oval } from 'react-loader-spinner';
-import axios from 'axios';
-import NutritionResult from './NutritionResult';
-import SearchForm from './SearchForm';
-import popularDishes from '../data/popularDishes';
 import { HiOutlineFire, HiOutlineInformationCircle } from 'react-icons/hi';
+import { Oval } from 'react-loader-spinner';
+import api from '../utils/api'; // Import the API utility
+import SearchForm from './SearchForm';
+import NutritionResult from './NutritionResult';
+import popularDishes from '../data/popularDishes';
 
 const CalculatorWrapper = styled.div`
   display: grid;
@@ -160,7 +160,7 @@ function NutritionCalculator() {
       await new Promise(r => setTimeout(r, 500)); // Small delay for UX
       
       setLoadingStage('Analyzing dish components...');
-      const response = await axios.post('/api/calculate', { dish_name: dish });
+      const response = await api.post('/api/calculate', { dish_name: dish });
       
       setLoadingStage('Calculating nutritional values...');
       await new Promise(r => setTimeout(r, 500)); // Small delay for UX

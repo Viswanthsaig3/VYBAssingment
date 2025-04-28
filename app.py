@@ -13,7 +13,12 @@ logger = logging.getLogger(__name__)
 load_dotenv()
 
 app = Flask(__name__)
-CORS(app)  # Enable CORS for all routes
+
+# Enable CORS for all routes with proper configuration
+CORS(app, resources={r"/*": {"origins": [
+    "https://vybassingment-1.onrender.com",  # Production frontend
+    "http://localhost:3000",                 # Development frontend
+]}})
 
 @app.route("/")
 def index():
